@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="bg-light">
+
+    <div class="container mx-auto">
+        <nav class="row mx-auto">
+            <div class="col-12 mx-auto mt-5">
+                <h1 class="text-center">Password Generator</h1>
+            </div>
+        </nav>
+
+        <div class="row bg-white mx-auto p-5 mt-5 add-border">
+            <div class="col-12 mx-auto">
+
+                <h2 class="mb-4">Generate a Password</h2>
+
+                <div class="text-center pt-3 mt-3 mb-3 sandwich-border">
+                    <p class="text-center p-5 w-100 h-50 rounded add-border-dash" 
+                        id="password-display">
+                        Your Secure Password
+                    </p>
+                </div>
+
+
+
+                <div class="text-center mx-auto">
+                    <button class="btn btn-danger btn-lg w-25 pt-2 pb-2 pl-4 pr-4 mt-4 text-center" 
+                        id="generate-button"
+                        type="submit">
+                        Generate Password
+                    </button>
+                </div>
+                <p class="text-center mt-5 w-100">
+                    Refresh page to select different length and character types and generate new passwords.
+                </p>
+            </div>
+
+        </div>
+
+        <script src="script.js"></script>
+
+</body>
+
+</html>

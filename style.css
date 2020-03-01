@@ -1,0 +1,18 @@
+.add-border {
+    border: solid;
+    border-color: rgb(212, 212, 212);
+    border-width: 2px;
+}
+
+.add-border-dash {
+    border-style: dashed;
+    border-color: rgb(212, 212, 212);
+    border-width: 2px;
+}
+
+.sandwich-border {
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(212, 212, 212);
+    border-width: 2px;
+}
