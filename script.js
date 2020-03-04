@@ -58,7 +58,7 @@ generateButton.addEventListener("click", function () {
    }
    
    else {
-      passwordDisplay.innerHTML = randomPassword;
+      passwordDisplay.textContent = randomPassword;
    }
 
 });
@@ -70,7 +70,3 @@ generateButton.addEventListener("click", function () {
 // 2. when user does not confirm any character criteria prompts:
 //    how to make a more user-friendly function that automatically loops back to criteria prompts 
 //    (instead of having user refresh page and go through beginning prompts again)
-// 3. when clicking generate button repeatedly, some random passwords come out in different character lenghts,
-//    But, most of the time, they are uniform length
-//    could this be something wrong in line 53? the chartAt() value?
-

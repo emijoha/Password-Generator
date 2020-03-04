@@ -14,4 +14,4 @@ If the password generate is empty becasue no character type criteria were select
 
 To generate passwords of different lengths or different combinations of characters, user is invited to refresh page and start with new inputs.
 
-Script.js file has notes on how this application will be improved.
+Script.js file has notes on how this application will be improved.git 
